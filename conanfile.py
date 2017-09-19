@@ -8,22 +8,22 @@ class BoostAlgorithmConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["algorithm"]
-    requires =  "Boost.Array/1.65.1@bincrafters/testing", \
-                      "Boost.Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Bind/1.65.1@bincrafters/testing", \
-                      "Boost.Concept_Check/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Exception/1.65.1@bincrafters/testing", \
-                      "Boost.Function/1.65.1@bincrafters/testing", \
-                      "Boost.Iterator/1.65.1@bincrafters/testing", \
-                      "Boost.Mpl/1.65.1@bincrafters/testing", \
-                      "Boost.Range/1.65.1@bincrafters/testing", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
-                      "Boost.Tuple/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
-                      "Boost.Unordered/1.65.1@bincrafters/testing"
+    requires =  "Boost.Array/1.65.1@bincrafters/stable", \
+                      "Boost.Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Bind/1.65.1@bincrafters/stable", \
+                      "Boost.Concept_Check/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Exception/1.65.1@bincrafters/stable", \
+                      "Boost.Function/1.65.1@bincrafters/stable", \
+                      "Boost.Iterator/1.65.1@bincrafters/stable", \
+                      "Boost.Mpl/1.65.1@bincrafters/stable", \
+                      "Boost.Range/1.65.1@bincrafters/stable", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
+                      "Boost.Tuple/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable", \
+                      "Boost.Unordered/1.65.1@bincrafters/stable"
 
                       #array3 assert1 bind3 concept_check5 config0 core2 exception5 function5 iterator5 mpl5 range7 regex6 static_assert1 throw_exception2 tuple4 type_traits3 unordered8
 
